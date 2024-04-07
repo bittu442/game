@@ -1,0 +1,83 @@
+/* Import fun font */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+/* Color theme */
+:root {
+  --primary-color: #2d50d8;
+  --secondary-color: #ef7f1a;
+}
+
+/* Header hero section */
+header {
+  background-image: url('b2.jpg');
+  height: 400px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-family: 'Happy Monkey', cursive;
+  font-size: 5rem;
+  color: var(--primary-color);
+  text-shadow: 2px 2px var(--secondary-color);
+}
+
+/* Main content */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Quiz type links */
+.quiz-links {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+}
+
+.quiz-links li {
+  margin-right: 20px;
+}
+
+.quiz-links a {
+  padding: 10px 20px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.quiz-links a:hover {
+  background: var(--secondary-color);
+}
+
+/* Math widget */ 
+.math-widget {
+  padding: 20px;
+  border: 2px dashed var(--primary-color);
+  border-radius: 4px;
+}
+.math-widget {
+    padding: 20px;
+    background: #eee;
+    border-radius: 4px;
+  }
+  
+#mathFact {
+    font-size: 18px; 
+    font-style: italic;
+  }
+  
+#newFactBtn {
+    padding: 10px 20px;
+    background: #1d6bd8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

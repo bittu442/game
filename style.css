@@ -1,0 +1,67 @@
+/* Add some color and font styling */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    color: #0066cc;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the quiz form */
+  #quizForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  #quizForm input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #quizForm button[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the timer */
+  #timer {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Style the score */
+  #score-div {
+    text-align: right;
+    margin: 20px 0;
+  }
+  
+  /* Style the home button */
+  a button {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
